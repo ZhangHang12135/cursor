@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(left top, red, orange, yellow, lime, aqua,blue,violet);
+    background: -webkit-linear-gradient(left top, red, orange, yellow, lime, aqua,blue, violet);
+    background: -ms-linear-gradient(left top, red, orange, yellow, lime, aqua,blue, violet);
+    background: -moz-linear-gradient(left top, red, orange, yellow, lime, aqua,blue, violet);
+}
+.card {
+    display: inline-block;
+    background-color: #fff;
+    width: 200px;
+    height: 100px;
+    border-radius: 5%;
+    border: 1px solid #EBEBE5;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+}
+.card:hover{
+    box-shadow: 1px 1px 5px 0 rgba(0,0,0, .1);
+}
